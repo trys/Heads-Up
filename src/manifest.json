@@ -3,7 +3,7 @@
 	"short_name": "Heads Up",
 	"start_url": "/",
 	"display": "standalone",
-	"orientation": "portrait",
+	"orientation": "landscape",
 	"background_color": "#ced6e0",
 	"theme_color": "#ced6e0",
 	"icons": [
