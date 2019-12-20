@@ -1,0 +1,141 @@
+/* Reset */
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
+
+body {
+	margin: 0;
+}
+
+blockquote,
+pre,
+ol,
+ul,
+figure {
+	padding: 0;
+	margin: 0;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+	height: auto;
+	border: none;
+}
+
+article,
+aside,
+figure,
+footer,
+header,
+aside,
+main,
+nav {
+	display: block;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
+}
+
+iframe {
+	border: none;
+}
+
+/* Typography */
+
+body {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	color: #333;
+	font: 400 16px/1.79 'Fredoka One', 'Comic Sans MS', -apple-system,
+		BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell,
+		'Helvetica Neue', sans-serif;
+	text-align: center;
+}
+
+html,
+body,
+#app,
+.game {
+	min-height: 100%;
+	height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-weight: 400;
+}
+
+.game {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.game--pending {
+	background: #ced6e0;
+	color: #2f3542;
+}
+
+.game--ended {
+	background: #f7626f;
+	color: #382a2c;
+}
+
+.game--starting {
+	background: #7bed9f;
+	color: #1f4f2e;
+}
+
+.game--running {
+	background: #70a1ff;
+	color: #2f347d;
+}
+
+button {
+	font: inherit;
+	color: inherit;
+	padding: 0;
+	box-shadow: none;
+	background: none;
+	cursor: pointer;
+}
+
+.button {
+	border: 3px solid #fff;
+	border-radius: 4px;
+	padding: 0.5rem 1.5rem;
+	margin: 0 0.25rem;
+	background: #fff;
+}
+
+.button--small {
+	font-size: 0.875rem;
+	padding: 0.25rem 0.5rem;
+}
+
+time {
+	font-size: 1.5em;
+	display: block;
+	position: fixed;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	background: #f1f2f6;
+	color: #2f3542;
+	padding: 0.5rem;
+	text-align: center;
+	min-width: 100px;
+	line-height: 1;
+	border-radius: 4px 4px 0 0;
+}
+
+.question {
+	font-size: 10vw;
+	line-height: 1.2;
+	margin: 1rem 0;
+}
